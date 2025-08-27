@@ -1,0 +1,57 @@
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  img {
+    width: 300px;
+    height: 200px;
+  }
+}
+body {
+  margin: 0 40px;
+}
+.header-image {
+  display: flex;
+  justify-content: center;
+  img {
+    border-radius: 50%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition-delay: 0.3s;
+  }
+  img:hover {
+    border-radius: 20px;
+    transition: 3s;
+  }
+}
+p {
+  font-size: 15;
+}
+
+h1 {
+  padding-top: 15px;
+  font-weight: 200;
+}
+Button {
+  background-color: pink;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.pictures-wraper{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.picture{
+img{
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  }
+}
